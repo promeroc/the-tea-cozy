@@ -1,0 +1,149 @@
+/* Universal Styles */
+
+* {
+    /* Removing Auto Vrowser Styles */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    margin-bottom: 20px;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    min-height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header a {
+    color: seashell;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+/* Mission */
+
+#mission {
+    background-image: url(./media/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 50px;
+}
+
+.mission-statement {
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* Featured Tea */
+
+.featured-tea-container {
+    width: 80%;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured-tea-container figure img {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.featured-tea-container figcaption {
+    margin: 10px auto 20px;
+    font-weight: bold;
+}
+
+
+/* Locations */
+
+#locations {
+    background-image: url(./media/img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#locations h2 {
+    padding-top: 20px;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.locations {
+    background-color: black;
+    padding: 10px;
+    margin: 15px 20px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.locations p {
+    line-height: 2.5;
+}
+
+/* Contact Info */
+
+#contact {
+    height: 200px;
+}
+
+#contact h2 {
+    padding: 20px;
+}
+
+/* Footer */
+
+footer {
+    position: relative; 
+    top: 70px;
+    text-align: start;
+    padding: 0 20px 20px;
+}
